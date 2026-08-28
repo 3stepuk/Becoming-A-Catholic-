@@ -1,0 +1,7 @@
+{
+  "name": "Becoming Catholic — RCIA",
+  "description": "A Catechumenate Companion for unbaptised adults preparing for Baptism, Confirmation and the Eucharist.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
+

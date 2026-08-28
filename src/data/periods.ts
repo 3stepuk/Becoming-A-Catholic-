@@ -1,0 +1,48 @@
+import { PeriodInfo } from '../types';
+
+export const PERIODS: PeriodInfo[] = [
+  {
+    id: 1,
+    name: 'Evangelisation & Precatechumenate',
+    stageName: 'Period 1: Inquiry',
+    roleName: 'INQUIRER',
+    description: 'No fixed duration. The Gospel is proclaimed; questions are welcomed; the beginnings of faith and conversion are discerned.',
+    majorStep: 'First Step: Acceptance into the Order of Catechumens',
+    calendarAnchor: 'Flexible duration based on readiness.',
+    conversationRange: [1, 4],
+    color: '#6C7BEA',
+  },
+  {
+    id: 2,
+    name: 'Period of the Catechumenate',
+    stageName: 'Period 2: Catechumenate',
+    roleName: 'CATECHUMEN',
+    description: 'A substantial period of catechesis, prayer, liturgy, Christian living, charity, community and mission. It may last as long as genuine growth requires.',
+    majorStep: 'Second Step: Election or Enrolment of Names',
+    calendarAnchor: 'Extends until the First Sunday of Lent (or when readiness is discerned).',
+    conversationRange: [5, 20],
+    color: '#7C88FF',
+  },
+  {
+    id: 3,
+    name: 'Purification & Enlightenment',
+    stageName: 'Period 3: Lent',
+    roleName: 'ELECT',
+    description: 'Normally Lent. A more intense spiritual preparation centred on conversion, the Scrutinies, presentations and prayer.',
+    majorStep: 'Third Step: Baptism, Confirmation and Eucharist (Easter Vigil)',
+    calendarAnchor: 'Normally Lent (Ash Wednesday to Holy Saturday).',
+    conversationRange: [21, 22],
+    color: '#8B5CF6',
+  },
+  {
+    id: 4,
+    name: 'Postbaptismal Catechesis / Mystagogy',
+    stageName: 'Period 4: Easter Season & Beyond',
+    roleName: 'NEOPHYTE',
+    description: 'Normally the Easter season and beyond. The newly baptised deepen their experience of the sacraments and enter more fully into Catholic life and mission.',
+    majorStep: 'Ongoing Discipleship and Mission',
+    calendarAnchor: 'Easter Vigil throughout the Easter Season and lifelong discipleship.',
+    conversationRange: [23, 24],
+    color: '#6366F1',
+  },
+];
