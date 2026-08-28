@@ -5,6 +5,7 @@ import {defineConfig} from 'vite';
 
 export default defineConfig(() => {
   return {
+    base: '/Becoming-A-Catholic-/',
     plugins: [react(), tailwindcss()],
     resolve: {
       alias: {

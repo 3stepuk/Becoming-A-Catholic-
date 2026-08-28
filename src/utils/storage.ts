@@ -14,7 +14,7 @@ export const DEFAULT_PROFILE: UserProfile = {
   email: '',
   notifiedParish: false,
   optInEmailNotification: false,
-  formspreeEndpoint: 'https://formspree.io/f/father-john-rcia-inquiry',
+  formspreeEndpoint: 'https://formspree.io/f/xvkoozdo',
 };
 
 export const DEFAULT_PROGRESS: UserProgress = {

@@ -210,11 +210,11 @@ export const ProfileView: React.FC<ProfileViewProps> = ({
 
             <div>
               <label className="block text-[10px] font-mono uppercase tracking-wider text-[#94A3B8] font-bold mb-1">
-                Sponsor / Godparent:
+                Sponsor / Mentor:
               </label>
               <input
                 type="text"
-                placeholder="Sponsor or godparent name"
+                placeholder="Sponsor or mentor name"
                 value={formData.sponsorName}
                 onChange={(e) => setFormData({ ...formData, sponsorName: e.target.value })}
                 className="w-full bg-[#0F0F0F] border border-[#2A2A2A] focus:border-[#6C7BEA] rounded px-3 py-2 text-xs text-[#E2E8F0] focus:outline-none"
